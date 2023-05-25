@@ -30,7 +30,7 @@ export default function Home({ allPostsData }) {
           <a href="https://urbit.org" target="_blank">
             Urbit
           </a>
-          , Elm, and raising a couple wonderful kids.
+          , WordPress, and raising a couple wonderful kids.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
