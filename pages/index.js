@@ -22,8 +22,8 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          My name's Niko. I recently took the plunge, learned web development,
-          and fell in love with it. Follow my journey here.
+          My name%apos;s Niko. I recently took the plunge, learned web
+          development, and fell in love with it. Follow my journey here.
         </p>
         <p>
           Some of my interests include music, Urbit, Elm, and raising a couple
