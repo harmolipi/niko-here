@@ -27,7 +27,7 @@ export default function Home({ allPostsData }) {
         </p>
         <p>
           Some of my interests include music,{" "}
-          <a href="https://urbit.org" target="_blank">
+          <a href="https://urbit.org" target="_blank" rel="noreferrer">
             Urbit
           </a>
           , WordPress, and my wonderful family.
