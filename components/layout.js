@@ -1,7 +1,7 @@
 import Head from "next/head";
-import styles from "./layout.module.css";
 import Link from "next/link";
 import SiteTitle from "./SiteTitle";
+import styles from "./layout.module.css";
 
 const name = "Niko Here";
 export const siteTitle = "Niko Here";
