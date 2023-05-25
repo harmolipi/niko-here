@@ -12,6 +12,10 @@ const pages = [
     name: "Home",
     path: "/",
   },
+  {
+    name: "About",
+    path: "/about",
+  },
 ];
 
 export default function Layout({ children, home }) {
