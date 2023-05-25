@@ -1,3 +1,35 @@
+:root {
+  --header: #63553e;
+  --text: var(--kobicha);
+  --primary: var(--lion);
+  --background: var(--bone);
+  --article: #f5f5f5;
+  --secondary: var(--moss-green-2);
+  --accent: var(--ebony);
+
+  /* --header: #4b6319; */
+  /* --text: #344511; */
+  /* --text: var(--kobicha); */
+  /* --primary: #8fbc8f; */
+  /* --background: #b6e0b2; */
+  /* --secondary: #f2e292; */
+  /* --accent: #f5b970; */
+
+  /* garden color scheme from colormagic.app  */
+  --olive-drab: #6b8f24;
+  --norway: #8fbc8f;
+  --moss-green: #b6e0b2;
+  --khaki: #f2e292;
+  --rajah: #f5b970;
+
+  /* Garden of Versailles color scheme from coolors.co */
+  --kobicha: #4c3821;
+  --bone: #d3cfba;
+  --lion: #a79068;
+  --moss-green-2: #918c66;
+  --ebony: #535743;
+}
+
 html,
 body {
   padding: 0;
@@ -6,10 +38,17 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
+  background-color: var(--background);
+  color: var(--text);
 }
 
 * {
   box-sizing: border-box;
+}
+
+h1,
+h2 {
+  color: var(--header);
 }
 
 a {
@@ -19,6 +58,17 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+article {
+  background-color: var(--article);
+  padding: 1rem;
+  border-radius: 4px;
+  color: var(--text);
+}
+
+time {
+  color: var(--secondary);
 }
 
 img {
