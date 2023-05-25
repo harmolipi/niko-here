@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import utilStyles from "../styles/utils.module.css";
 
-export default function SiteTitle({ home, name }) {
+export default function SiteHeader({ home, name }) {
   return home ? (
     <>
       <Image

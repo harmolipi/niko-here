@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import SiteTitle from "./SiteTitle";
+import SiteHeader from "./SiteHeader";
 import styles from "./layout.module.css";
 
 const name = "Niko Here";
@@ -25,7 +25,7 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
-        <SiteTitle home={home} name={name} />
+        <SiteHeader home={home} name={name} />
       </header>
       <main>{children}</main>
       {!home && (
