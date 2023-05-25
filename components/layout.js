@@ -30,7 +30,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/niko-here/images/profile.jpg"
+              src="/niko-here/images/profile.jpeg"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
@@ -43,7 +43,7 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <Image
                 priority
-                src="/niko-here/images/profile.jpg"
+                src="/niko-here/images/profile.jpeg"
                 className={utilStyles.borderCircle}
                 height={108}
                 width={108}
