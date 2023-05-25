@@ -26,8 +26,11 @@ export default function Home({ allPostsData }) {
           development, and fell in love with it. Follow my journey here.
         </p>
         <p>
-          Some of my interests include music, Urbit, Elm, and raising a couple
-          wonderful kids.
+          Some of my interests include music,{" "}
+          <a href="https://urbit.org" target="_blank">
+            Urbit
+          </a>
+          , Elm, and raising a couple wonderful kids.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
