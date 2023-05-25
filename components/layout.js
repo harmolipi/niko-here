@@ -1,10 +1,18 @@
 import Head from "next/head";
 import Link from "next/link";
 import SiteHeader from "./SiteHeader";
+import Navbar from "./Navbar";
 import styles from "./layout.module.css";
 
 const name = "Niko Here";
 export const siteTitle = "Niko Here";
+
+const pages = [
+  {
+    name: "Home",
+    path: "/",
+  },
+];
 
 export default function Layout({ children, home }) {
   return (
@@ -25,6 +33,7 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
+        <Navbar pages={pages} />
         <SiteHeader home={home} name={name} />
       </header>
       <main>{children}</main>
