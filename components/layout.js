@@ -2,10 +2,15 @@ import Head from "next/head";
 import Link from "next/link";
 import SiteHeader from "./SiteHeader";
 import Navbar from "./Navbar";
+import { Cormorant } from "next/font/google";
 import styles from "./layout.module.css";
 
 const name = "Niko Here";
 export const siteTitle = "Niko Here";
+
+const cormorant = Cormorant({
+  subsets: ["latin"],
+});
 
 const pages = [
   {
@@ -20,7 +25,7 @@ const pages = [
 
 export default function Layout({ children, home }) {
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} ${cormorant.className}`}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
