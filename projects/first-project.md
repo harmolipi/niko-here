@@ -1,7 +1,7 @@
 ---
 title: "First Project"
 link: "https://github.com/harmolipi"
-complete: false
+status: "in-progress"
 ---
 
-This is my first personal project.
+This is my first personal project. A placeholder for actual projects I'll enter in later.
