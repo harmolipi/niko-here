@@ -32,7 +32,7 @@ export default function Home({ allPostsData }) {
           , WordPress, and my wonderful family.
         </p>
       </section>
-      <BlogList posts={allPostsData} />
+      <BlogList posts={allPostsData} embedded={true} />
     </Layout>
   );
 }
