@@ -50,3 +50,25 @@
 .lightText {
   color: #667;
 }
+
+.tag {
+  padding: 3px 7px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.completeTag {
+  background-color: #b1f6aa7d;
+  color: #0b510ac4;
+}
+
+.inProgressTag {
+  background-color: #f6f6aa7d;
+  color: #b98018c4;
+}
+
+.notStartedTag {
+  background-color: #f6bcaa7d;
+  color: #7b2210c4;
+}
