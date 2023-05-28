@@ -6,7 +6,7 @@ export default function ProjectList({ projects, embedded = false }) {
     <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
       {embedded && <h2 className={utilStyles.headingLg}>Projects</h2>}
       <ul className={utilStyles.list}>
-        {projects.map(({ id, date, title }) => (
+        {projects.map(({ id, title }) => (
           <li className={utilStyles.listItem} key={id}>
             <Link href={`/projects/${id}`}>{title}</Link>
             <br />
