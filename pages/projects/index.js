@@ -1,5 +1,5 @@
 import Layout, { siteTitle } from "../../components/layout";
-import ProjectList from "../../components/projectList";
+import ProjectList from "../../components/ProjectList";
 import Head from "next/head";
 import { getSortedProjectsData } from "../../lib/projects";
 
