@@ -35,7 +35,24 @@ export default function Layout({ children, home }) {
   return (
     <div className={`${styles.container} ${cormorant.className}`}>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/niko-here/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/niko-here/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/niko-here/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/niko-here/site.webmanifest" />
         <meta
           name="description"
           content="Niko is a developer based in Jacksonville, Florida."
