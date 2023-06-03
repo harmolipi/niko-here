@@ -11,16 +11,43 @@ export default function About() {
       <h1>About</h1>
       <section className={utilStyles.headingMd}>
         <p>
-          My name&apos;s Niko. I recently took the plunge, learned web
-          development, and fell in love with it. Follow my journey here.
+          {
+            "My name is Niko Birbilis. I've always been a tinkerer, and after brushing elbows with programming often enough, I finally started studying full-stack web development in earnest back in 2019. I started by learning Ruby on Rails through "
+          }
+          <a
+            href="https://www.theodinproject.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            The Odin Project
+          </a>
+          , and then just kept on learning from there.
         </p>
         <p>
-          Some of my interests include music,{" "}
-          <a href="https://urbit.org" target="_blank" rel="noreferrer">
-            Urbit
+          I use Neovim as my editor, with{" "}
+          <a href="https://astronvim.com/" target="_blank" rel="noreferrer">
+            AstroNvim
+          </a>{" "}
+          as my base configuration, and build my settings from there.{" "}
+          <a
+            href="https://github.com/harmolipi/dotfiles"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Click here to see my dotfiles.
           </a>
-          , WordPress, and my wonderful family.
         </p>
+        <p>My languages and frameworks:</p>
+        <ul>
+          <li>HTML/CSS</li>
+          <li>JS</li>
+          <li>SQL</li>
+          <li>Ruby (and Ruby on Rails)</li>
+          <li>
+            PHP (vanilla and in the context of WordPress plugins and themes)
+          </li>
+          <li>Python</li>
+        </ul>
       </section>
     </Layout>
   );
