@@ -25,7 +25,8 @@ export default function Home({ allPostsData }) {
           development, and fell in love with it. Follow my journey here.
         </p>
         <p>
-          Some of my interests include music,{" "}
+          Some of my interests include Eastern Orthodoxy, Neovim, aesthetics,
+          architecture, jazz,{" "}
           <a href="https://urbit.org" target="_blank" rel="noreferrer">
             Urbit
           </a>
