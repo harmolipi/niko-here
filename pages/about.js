@@ -24,6 +24,11 @@ export default function About() {
           , and then just kept on learning from there.
         </p>
         <p>
+          I received a Master of Divinity at Holy Cross Greek Orthodox School of
+          Theology. My studies in theology guide my life and my work as I seek
+          to pursue the True, the Good, and the Beautiful in all that I do.
+        </p>
+        <p>
           I use Neovim as my editor, with{" "}
           <a href="https://astronvim.com/" target="_blank" rel="noreferrer">
             AstroNvim
