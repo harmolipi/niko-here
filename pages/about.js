@@ -12,7 +12,7 @@ export default function About() {
       <section className={utilStyles.headingMd}>
         <p>
           {
-            "My name is Niko Birbilis. I've always been a tinkerer, and after brushing elbows with programming often enough, I finally started studying full-stack web development in earnest back in 2019. I started by learning Ruby on Rails through "
+            "My name is Deacon Niko Birbilis. I've always been a tinkerer, and after brushing elbows with programming often enough, I finally started studying full-stack web development in earnest back in 2019. I started by learning Ruby on Rails through "
           }
           <a
             href="https://www.theodinproject.com/"
